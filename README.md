@@ -10,6 +10,11 @@ Each day gets its own folder. In general, each problem in each day gets its own 
 
 Each day's text will be saved to `dayXX_problem.txt` (where `XX` is the 0-padded day). Each day's input (which is custom to each player in AOC) will saved to `input.txt`. Sometimes it is faster/easier to hand modify the `input.txt` to get some specific formatting than it is to implement the formatting in code. In those cases, the saved `input.txt` file will not match what was actually provided by AOC. 
 
+Sometimes to help me troubleshoot, I'll also create a `sample.txt` file which is generally either:
+
+* the simple example provided in the problem statement
+* an example made up by me to help me debug my code
+
 ### Running code
 For AOC 2021, I intend to mostly (if not exclusively) use Python. `XX` stands for the 0-padded day. `Y` stands for the part number.
 
