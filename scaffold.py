@@ -41,6 +41,7 @@ os.mkdir(day_directory)
 extension: str = language_file_extensions[args.language]
 files_to_be_created: List[str] = [
     "input.txt",
+    "sample.txt"
     f"day{day_str}_problem.txt",
     f"day{day_str}p1.{extension}",
     f"day{day_str}p2.{extension}",
